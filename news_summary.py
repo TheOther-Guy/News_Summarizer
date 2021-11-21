@@ -22,7 +22,13 @@ print(text) # verifying the results
 
 print(len(str.split(text[1]))) # getting the number of words in the text extracted
 
-print(text[0])
+# Summerization using gemsim
+
+from gensim.summarization.summarizer import summarize
+from gensim.summarization import keywords
+
+
+
 
 
 
