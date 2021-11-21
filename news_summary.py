@@ -20,7 +20,9 @@ text = get_only_text('https://www.voxmedia.com/2021/11/19/22791332/the-second-se
 
 print(text) # verifying the results
 
-#print(len(str.split(text[1]))) # getting the number of words in the text extracted
+print(len(str.split(text[1]))) # getting the number of words in the text extracted
+
+print(text[0])
 
 
 
